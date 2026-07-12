@@ -37,13 +37,13 @@ Want to use this portfolio structure for yourself? You can easily clone this rep
 Open your terminal and run the following command:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/MohamedThoufeeq/portfolio.git
 ```
 
 ### 2. Navigate to the Directory
 
 ```bash
-cd your-repo-name
+cd portfolio
 ```
 
 ### 3. Open in your Browser
