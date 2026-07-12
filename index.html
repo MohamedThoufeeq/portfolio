@@ -1,0 +1,2097 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed Thoufeeq - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Mohamed Thoufeeq"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Mohamed Thoufeeq">Mohamed Thoufeeq</h1>
+
+            <p class="title">Java Full Stack Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:pmtthoufeeq@gmail.com" class="contact-link"
+                  >pmtthoufeeq@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+919087588215" class="contact-link"
+                  >+91 9087588215</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Chennai, Tamil Nadu, India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Socials</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I am a Java Full Stack Developer with 3+ years of experience
+              building scalable microservices and cloud-native applications
+              using Spring Boot and AWS. I am a 2× AWS Certified (AI & Cloud)
+              Practitioner with span expertise in cloud architecture, legacy
+              modernization, and event-driven distributed systems.
+            </p>
+
+            <p>
+              My focus is on delivering secure, high-performance, and highly
+              available enterprise solutions. I have a proven track record of
+              boosting development productivity through the strategic adoption
+              of AI tools across the SDLC for intelligent code generation,
+              automated testing, and faster debugging.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Backend Architecture</h4>
+
+                  <p class="service-item-text">
+                    Building highly resilient microservices and distributed
+                    workflows using Java, Spring Boot, and Kafka.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="Cloud icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Cloud Migration</h4>
+
+                  <p class="service-item-text">
+                    Modernizing legacy applications and migrating mainframe
+                    payloads to scalable AWS cloud-native deployments.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg"
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Full-Stack Integration</h4>
+
+                  <p class="service-item-text">
+                    Connecting responsive React and Angular frontend components
+                    to high-throughput RESTful JSON services.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="AI icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">AI-Assisted Development</h4>
+
+                  <p class="service-item-text">
+                    Accelerating CI/CD and TDD velocity by embedding GenAI tools
+                    like Bedrock and GitHub Copilot into the SDLC.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Associate Software Developer - Cognizant Technology Solutions
+                  Pvt. Ltd.
+                </h4>
+
+                <span>Dec 2022 — Present</span>
+
+                <ul
+                  class="timeline-text"
+                  style="
+                    list-style-type: disc;
+                    margin-left: 20px;
+                    margin-top: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                  "
+                >
+                  <li>
+                    <span>Legacy-to-Cloud Migration:</span> Led the end-to-end
+                    migration of hundreds of legacy API services from IBM
+                    DataPower to cloud-native Java microservices deployed on AWS
+                    (ECS, EC2). Successfully achieved a 100% zero-downtime
+                    transition, significantly improving system maintainability,
+                    lowering operational infrastructure costs, and expanding
+                    horizontal scalability.
+                  </li>
+                  <li>
+                    <span>API Modernization:</span> Spearheaded a major
+                    mainframe modernization initiative by refactoring rigid
+                    legacy COBOL-based API payloads into flexible, modern
+                    RESTful JSON services using Spring Boot. This eliminated
+                    tightly coupled legacy dependencies and accelerated frontend
+                    integration timelines for web components built in React and
+                    Angular.
+                  </li>
+                  <li>
+                    <span>System Performance Optimization:</span> Engineered
+                    critical performance optimization tasks across enterprise
+                    distributed systems. By profiling slow-running endpoints,
+                    applying advanced DSA principles, and tuning complex SQL
+                    queries in PostgreSQL and MySQL, reducing latency by 35% and
+                    optimizing runtime resource utilization.
+                  </li>
+                  <li>
+                    <span>Asynchronous Event-Driven Architecture:</span>
+                    Decoupled critical microservices and engineered highly
+                    available distributed workflows by integrating Apache Kafka
+                    and IBM MQ for asynchronous processing, ensuring resilient
+                    message ingestion under transactional loads of 10K+
+                    requests/minute.
+                  </li>
+                  <li>
+                    <span>DevOps & Infrastructure-as-Code:</span> Automated
+                    infrastructure provisioning and streamlined software
+                    delivery by maintaining CI/CD pipelines using Terraform and
+                    GitHub Actions, reducing production release cycles by 40%
+                    and cutting manual deployment errors to near-zero.
+                  </li>
+                  <li>
+                    <span>Full-Stack Feature Delivery:</span> Built and
+                    optimized highly responsive frontend components using React
+                    and Angular, seamlessly connecting them to high-throughput
+                    backend APIs. Delivered modern, intuitive user interfaces
+                    that improved end-user engagement and system transparency.
+                  </li>
+                  <li>
+                    <span>Quality Assurance & AI-Assisted Velocity:</span>
+                    Spearheaded a Test-Driven Development (TDD) approach using
+                    JUnit and Mockito to hit maximum code coverage and security
+                    benchmarks in SonarQube. Integrated AI tools like GitHub
+                    Copilot and Gemini into the SDLC, cutting down boilerplate
+                    coding times and accelerating automated test generation.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Saranathan College Of Engineering
+                </h4>
+
+                <span>2018 — 2022</span>
+
+                <p class="timeline-text">
+                  B.E Instrumentation and Control Engineering.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">Tech Stack</h3>
+
+            <div class="content-card" style="cursor: default">
+              <!-- Category: Programming Languages -->
+              <div style="margin-bottom: 25px">
+                <h4
+                  class="h4"
+                  style="margin-bottom: 15px; color: var(--vegas-gold)"
+                >
+                  Programming Languages
+                </h4>
+                <ul style="display: flex; flex-wrap: wrap; gap: 12px">
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="cafe-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Java 25</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="cog-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Core Java (Collections, Multithreading,
+                      Concurrency)</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="logo-javascript"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >JavaScript</span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Category: Backend Frameworks -->
+              <div style="margin-bottom: 25px">
+                <h4
+                  class="h4"
+                  style="margin-bottom: 15px; color: var(--vegas-gold)"
+                >
+                  Backend Frameworks
+                </h4>
+                <ul style="display: flex; flex-wrap: wrap; gap: 12px">
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="leaf-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Spring Boot 4.0</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="library-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Spring (Hibernate, Data JPA)</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="shield-checkmark-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Spring Security 6</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="business-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >J2EE</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="logo-nodejs"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Node.js</span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Category: Frontend -->
+              <div style="margin-bottom: 25px">
+                <h4
+                  class="h4"
+                  style="margin-bottom: 15px; color: var(--vegas-gold)"
+                >
+                  Frontend
+                </h4>
+                <ul style="display: flex; flex-wrap: wrap; gap: 12px">
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="logo-html5"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >HTML5</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="logo-css3"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >CSS3</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="logo-react"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >React</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="logo-angular"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Angular</span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Category: Architecture & Design -->
+              <div style="margin-bottom: 25px">
+                <h4
+                  class="h4"
+                  style="margin-bottom: 15px; color: var(--vegas-gold)"
+                >
+                  Architecture & Design
+                </h4>
+                <ul style="display: flex; flex-wrap: wrap; gap: 12px">
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="shapes-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >OOPs</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="cube-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >SOLID principle</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="git-network-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Microservices</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="flash-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Event-Driven Architecture</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="swap-horizontal-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Asynchronous</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="git-merge-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Parallel Processing</span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Category: API Design -->
+              <div style="margin-bottom: 25px">
+                <h4
+                  class="h4"
+                  style="margin-bottom: 15px; color: var(--vegas-gold)"
+                >
+                  API Design
+                </h4>
+                <ul style="display: flex; flex-wrap: wrap; gap: 12px">
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="globe-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >RESTful web services</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="sync-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >SOAP</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="share-social-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >GraphQL</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="git-compare-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >gRPC</span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Category: Data & Messaging -->
+              <div style="margin-bottom: 25px">
+                <h4
+                  class="h4"
+                  style="margin-bottom: 15px; color: var(--vegas-gold)"
+                >
+                  Data & Messaging
+                </h4>
+                <ul style="display: flex; flex-wrap: wrap; gap: 12px">
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="prism-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >SQL</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="water-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >PostgreSQL</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="fish-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >MySQL</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="server-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >NoSQL</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="document-text-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >MongoDB</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="options-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Apache Kafka</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="chatbox-ellipses-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >IBM MQ</span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Category: Cloud & Orchestration -->
+              <div style="margin-bottom: 25px">
+                <h4
+                  class="h4"
+                  style="margin-bottom: 15px; color: var(--vegas-gold)"
+                >
+                  Cloud & Orchestration
+                </h4>
+                <ul style="display: flex; flex-wrap: wrap; gap: 12px">
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="logo-amazon"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >AWS (ECS, EC2, S3, Lambda, Glue)</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="logo-google"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Google Apigee</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="logo-docker"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Docker</span
+                    >
+                  </li>
+
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="construct-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Terraform</span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Category: DevOps & Process -->
+              <div style="margin-bottom: 25px">
+                <h4
+                  class="h4"
+                  style="margin-bottom: 15px; color: var(--vegas-gold)"
+                >
+                  DevOps & Process
+                </h4>
+                <ul style="display: flex; flex-wrap: wrap; gap: 12px">
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="infinite-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >CI/CD Pipelines</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="play-circle-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >GitHub Actions</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="git-branch-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Git</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="build-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Maven</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="people-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Agile/Scrum</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="star-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >STAR method</span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Category: Security & Testing -->
+              <div style="margin-bottom: 25px">
+                <h4
+                  class="h4"
+                  style="margin-bottom: 15px; color: var(--vegas-gold)"
+                >
+                  Security & Testing
+                </h4>
+                <ul style="display: flex; flex-wrap: wrap; gap: 12px">
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="key-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >OAuth 2.0</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="lock-closed-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >JWT</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="finger-print-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >OpenID</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="checkmark-done-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >TDD</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="beaker-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >JUnit 5</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="flask-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Mockito</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="search-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >RCA</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="bar-chart-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Log Analysis</span
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Category: AI Stack -->
+              <div>
+                <h4
+                  class="h4"
+                  style="margin-bottom: 15px; color: var(--vegas-gold)"
+                >
+                  AI Stack
+                </h4>
+                <ul style="display: flex; flex-wrap: wrap; gap: 12px">
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="cloud-done-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >AWS Bedrock</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="logo-github"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >GitHub Copilot</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="terminal-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Cursor IDE</span
+                    >
+                  </li>
+                  <li
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 8px;
+                      background: var(--eerie-black-2);
+                      padding: 8px 15px;
+                      border-radius: 8px;
+                      border: 1px solid var(--jet);
+                      box-shadow: var(--shadow-1);
+                    "
+                  >
+                    <ion-icon
+                      name="sparkles-outline"
+                      style="
+                        color: var(--orange-yellow-crayola);
+                        font-size: 18px;
+                      "
+                    ></ion-icon>
+                    <span
+                      style="color: var(--light-gray); font-size: var(--fs-6)"
+                      >Gemini</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section
+            class="download-resume-btn"
+            style="
+              display: flex;
+              justify-content: center;
+              margin-top: 40px;
+              margin-bottom: 20px;
+            "
+          >
+            <a
+              href="assets\resume\Mohamed Thoufeeq FSD Resume.docx"
+              download="Mohamed_Thoufeeq_Resume.docx"
+              class="form-btn"
+              style="
+                width: max-content;
+                padding: 15px 35px;
+                text-decoration: none;
+                cursor: pointer;
+              "
+            >
+              <ion-icon
+                name="cloud-download-outline"
+                style="font-size: 20px"
+              ></ion-icon>
+              <span>Download My Resume</span>
+            </a>
+          </section>
+        </article>
+
+        <!--
+        - #SOCIALS (NEW TAB)
+      -->
+
+        <article class="socials" data-page="socials">
+          <header>
+            <h2 class="h2 article-title">Social Profiles</h2>
+          </header>
+
+          <section class="socials-list-section">
+            <ul class="service-list">
+              <!-- LinkedIn -->
+              <li class="service-item">
+                <div
+                  class="service-icon-box"
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 40px;
+                    color: var(--orange-yellow-crayola);
+                  "
+                >
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">LinkedIn</h4>
+                  <a
+                    href="https://linkedin.com/in/mohamedthoufeeq"
+                    target="_blank"
+                    class="service-item-text"
+                    style="color: var(--light-gray-70); text-decoration: none"
+                  >
+                    Connect on LinkedIn
+                  </a>
+                </div>
+              </li>
+
+              <!-- GitHub -->
+              <li class="service-item">
+                <div
+                  class="service-icon-box"
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 40px;
+                    color: var(--orange-yellow-crayola);
+                  "
+                >
+                  <ion-icon name="logo-github"></ion-icon>
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">GitHub</h4>
+                  <a
+                    href="https://github.com/mohamedthoufeeq"
+                    target="_blank"
+                    class="service-item-text"
+                    style="color: var(--light-gray-70); text-decoration: none"
+                  >
+                    View Repositories
+                  </a>
+                </div>
+              </li>
+
+              <!-- Credly -->
+              <li class="service-item">
+                <div
+                  class="service-icon-box"
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 40px;
+                    color: var(--orange-yellow-crayola);
+                  "
+                >
+                  <ion-icon name="ribbon-outline"></ion-icon>
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Credly</h4>
+                  <a
+                    href="https://www.credly.com/users/mohamed-thoufeeq"
+                    target="_blank"
+                    class="service-item-text"
+                    style="color: var(--light-gray-70); text-decoration: none"
+                  >
+                    View Certifications
+                  </a>
+                </div>
+              </li>
+
+              <!-- LeetCode -->
+              <li class="service-item">
+                <div
+                  class="service-icon-box"
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 40px;
+                    color: var(--orange-yellow-crayola);
+                  "
+                >
+                  <ion-icon name="code-slash-outline"></ion-icon>
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">LeetCode</h4>
+                  <a
+                    href="https://leetcode.com/u/mvGsEj15ta/"
+                    target="_blank"
+                    class="service-item-text"
+                    style="color: var(--light-gray-70); text-decoration: none"
+                  >
+                    View Profile
+                  </a>
+                </div>
+              </li>
+
+              <!-- HackerRank -->
+              <li class="service-item">
+                <div
+                  class="service-icon-box"
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 40px;
+                    color: var(--orange-yellow-crayola);
+                  "
+                >
+                  <ion-icon name="terminal-outline"></ion-icon>
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">HackerRank</h4>
+                  <a
+                    href="https://www.hackerrank.com/profile/pmtthoufeeq"
+                    target="_blank"
+                    class="service-item-text"
+                    style="color: var(--light-gray-70); text-decoration: none"
+                  >
+                    View Profile
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="contact-info">
+            <h3 class="h3 form-title">Let's Connect</h3>
+            <p
+              style="
+                color: var(--light-gray);
+                font-size: var(--fs-6);
+                font-weight: var(--fw-300);
+                margin-bottom: 30px;
+                line-height: 1.6;
+              "
+            >
+              I am currently open to discussing new projects, technical
+              challenges, or opportunities to be part of your vision. Reach out
+              to me directly via any of the platforms below, and I will get back
+              to you immediately!
+            </p>
+
+            <ul class="service-list">
+              <!-- WhatsApp Button -->
+              <li class="service-item" style="padding: 0">
+                <!-- Note: wa.me instantly opens a chat in WhatsApp with a pre-filled message -->
+                <a
+                  href="https://wa.me/919087588215?text=Hi%20Mohamed,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!"
+                  target="_blank"
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    padding: 30px;
+                    width: 100%;
+                    border-radius: 14px;
+                  "
+                >
+                  <div
+                    class="service-icon-box"
+                    style="
+                      margin-bottom: 0;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      font-size: 40px;
+                      color: var(--orange-yellow-crayola);
+                    "
+                  >
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                  </div>
+                  <div class="service-content-box" style="text-align: left">
+                    <h4
+                      class="h4 service-item-title"
+                      style="margin-bottom: 5px"
+                    >
+                      WhatsApp Me
+                    </h4>
+                    <p
+                      class="service-item-text"
+                      style="color: var(--light-gray-70)"
+                    >
+                      +91 9087588215
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <!-- Email Button -->
+              <li class="service-item" style="padding: 0">
+                <a
+                  href="mailto:pmtthoufeeq@gmail.com"
+                  target="_blank"
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    padding: 30px;
+                    width: 100%;
+                    border-radius: 14px;
+                  "
+                >
+                  <div
+                    class="service-icon-box"
+                    style="
+                      margin-bottom: 0;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      font-size: 40px;
+                      color: var(--orange-yellow-crayola);
+                    "
+                  >
+                    <ion-icon name="mail-outline"></ion-icon>
+                  </div>
+                  <div class="service-content-box" style="text-align: left">
+                    <h4
+                      class="h4 service-item-title"
+                      style="margin-bottom: 5px"
+                    >
+                      Send an Email
+                    </h4>
+                    <p
+                      class="service-item-text"
+                      style="color: var(--light-gray-70)"
+                    >
+                      pmtthoufeeq@gmail.com
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <!-- Instagram Button -->
+              <li class="service-item" style="padding: 0">
+                <a
+                  href="https://instagram.com/mohamed_thoufeeq_official"
+                  target="_blank"
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    padding: 30px;
+                    width: 100%;
+                    border-radius: 14px;
+                  "
+                >
+                  <div
+                    class="service-icon-box"
+                    style="
+                      margin-bottom: 0;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      font-size: 40px;
+                      color: var(--orange-yellow-crayola);
+                    "
+                  >
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </div>
+                  <div class="service-content-box" style="text-align: left">
+                    <h4
+                      class="h4 service-item-title"
+                      style="margin-bottom: 5px"
+                    >
+                      Direct Message
+                    </h4>
+                    <p
+                      class="service-item-text"
+                      style="color: var(--light-gray-70)"
+                    >
+                      Instagram Profile
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
