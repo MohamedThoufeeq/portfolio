@@ -4,6 +4,8 @@
 
 ![Portfolio Preview](./assets/images/preview.png)
 
+[click here to visit the portfolio](https://mohamedthoufeeq.github.io/portfolio/)
+
 Welcome to my personal portfolio repository! This project serves as my digital resume, showcasing my experience as a Java Full Stack Developer, my technical skills, educational background, and social profiles. It is designed with a beautiful dark theme, smooth transitions, and a highly organized UI.
 
 ---
