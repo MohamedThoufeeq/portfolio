@@ -16,8 +16,9 @@ Welcome to my personal portfolio repository! This project serves as my digital r
 - **🎨 Modern Dark UI:** A visually striking dark theme with elegant gold/yellow accent colors.
 - **🗂️ Categorized Tech Stack:** A clean, badge-style layout to display programming languages, frameworks, and tools.
 - **⚡ Lightweight & Fast:** Built purely with HTML5, CSS3, and Vanilla JavaScript—no heavy frameworks required.
-- **🧭 Smooth Navigation:** Single-page application feel with JavaScript-powered tab navigation.
-- **📬 Contact Form:** Integrated UI for a contact form and a Google Maps embed.
+- **🧭 Smooth Navigation:** Single-page application feel with JavaScript-powered tab navigation and shareable `#page` links.
+- **🔗 Social Profiles:** A dedicated tab linking to LinkedIn, GitHub, Credly, LeetCode, and HackerRank.
+- **📄 Resume Download:** A one-click resume download directly from the Resume tab.
 
 ---
 
@@ -25,7 +26,7 @@ Welcome to my personal portfolio repository! This project serves as my digital r
 
 - **HTML5** - Semantic structure and content routing.
 - **CSS3** - Custom properties (variables), Flexbox, CSS Grid, and animations.
-- **Vanilla JavaScript** - DOM manipulation, event listeners, and dynamic tab switching.
+- **Vanilla JavaScript** - DOM manipulation, event listeners, dynamic tab switching, and hash-based deep links.
 - **[IonIcons](https://ionic.io/ionicons)** - Premium open-source icons.
 
 ---
@@ -70,7 +71,11 @@ To personalize this portfolio, open `index.html` in your favorite code editor an
 2.  **About Me:** Edit the text inside the `<article class="about">` tag to reflect your professional summary.
 3.  **Resume:** Update the `<section class="timeline">` with your own Experience and Education history.
 4.  **Tech Stack:** Swap out the skill names and `<ion-icon>` tags in the "Tech Stack" section to match your expertise.
-5.  **Images:** Replace the dummy images in the `./assets/images/` folder with your own avatar and project screenshots.
+5.  **Social Links:** Update the URLs inside `<article class="socials">` and the Contact tab.
+6.  **Images:** Replace `./assets/images/my-avatar.png` for the profile picture, `preview.png` for the social preview, and the `icon-*.svg` files for the service icons.
+7.  **Resume File:** Replace `./assets/resume/Mohamed-Thoufeeq-Resume.docx` and update the `href`/`download` attributes in the Resume tab.
+
+> **Tip:** A PDF resume is more portable than `.docx` for recruiters and applicant tracking systems. Replace the file and update the link if you export one.
 
 ---
 
