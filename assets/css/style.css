@@ -519,6 +519,38 @@ main {
 
 
 /*-----------------------------------*\
+  #PROJECTS
+\*-----------------------------------*/
+
+.project-card-link {
+  display: block;
+  width: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: var(--orange-yellow-crayola);
+}
+
+.project-meta {
+  color: var(--vegas-gold);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-400);
+  margin-top: 8px;
+}
+
+.project-card-link:hover .service-item-title {
+  color: var(--orange-yellow-crayola);
+}
+
+
+
+/*-----------------------------------*\
   #RESUME
 \*-----------------------------------*/
 

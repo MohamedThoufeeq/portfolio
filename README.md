@@ -67,7 +67,7 @@ start index.html
 
 To personalize this portfolio, open `index.html` in your favorite code editor and modify the following sections:
 
-1.  **Personal Info:** Update the `<aside class="sidebar">` with your name, job title, email, phone number, and location.
+1.  **Personal Info:** Update the `<aside class="sidebar">` with your name, job title, email, and location.
 2.  **About Me:** Edit the text inside the `<article class="about">` tag to reflect your professional summary.
 3.  **Resume:** Update the `<section class="timeline">` with your own Experience and Education history.
 4.  **Tech Stack:** Swap out the skill names and `<ion-icon>` tags in the "Tech Stack" section to match your expertise.

@@ -133,20 +133,6 @@
 
             <li class="contact-item">
               <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
-
-                <a href="tel:+919087588215" class="contact-link"
-                  >+91 9087588215</a
-                >
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
                 <ion-icon name="location-outline"></ion-icon>
               </div>
 
@@ -193,6 +179,10 @@
 
             <li class="navbar-item">
               <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
             </li>
 
             <li class="navbar-item">
@@ -782,6 +772,104 @@
         </article>
 
         <!--
+        - #PROJECTS
+      -->
+
+        <article class="projects" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects-list-section">
+            <p class="service-item-text" style="margin-bottom: 20px; color: var(--light-gray);">
+              A selection of projects from my GitHub.
+            </p>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <a
+                  class="project-card-link"
+                  href="https://github.com/MohamedThoufeeq/quranmarvel"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="service-icon-box project-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">QuranMarvel</h4>
+                    <p class="service-item-text">
+                      A web project for exploring Quran-related content with an interactive experience.
+                    </p>
+                    <p class="project-meta">JavaScript · GitHub Pages</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="service-item">
+                <a
+                  class="project-card-link"
+                  href="https://github.com/MohamedThoufeeq/Nikkah"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="service-icon-box project-icon-box">
+                    <ion-icon name="people-outline"></ion-icon>
+                  </div>
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Nikkah</h4>
+                    <p class="service-item-text">
+                      Backend for a Muslim matrimony application focused on core matchmaking workflows.
+                    </p>
+                    <p class="project-meta">Java · 3 stars</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="service-item">
+                <a
+                  class="project-card-link"
+                  href="https://github.com/MohamedThoufeeq/superlist"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="service-icon-box project-icon-box">
+                    <ion-icon name="layers-outline"></ion-icon>
+                  </div>
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">SuperList</h4>
+                    <p class="service-item-text">
+                      A Java collection utility exploring an alternative to ArrayList and LinkedList.
+                    </p>
+                    <p class="project-meta">Java · Collections</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="service-item">
+                <a
+                  class="project-card-link"
+                  href="https://github.com/MohamedThoufeeq/java-hibernate"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="service-icon-box project-icon-box">
+                    <ion-icon name="server-outline"></ion-icon>
+                  </div>
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Java Hibernate Demo</h4>
+                    <p class="service-item-text">
+                      A Maven-based demo project showcasing Hibernate ORM concepts in Java.
+                    </p>
+                    <p class="project-meta">Java · Hibernate · Maven</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
         - #SOCIALS (NEW TAB)
       -->
 
@@ -936,35 +1024,6 @@
                   </a>
                 </div>
               </li>
-
-              <!-- Portfolio -->
-              <li class="service-item">
-                <div
-                  class="service-icon-box"
-                  style="
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    font-size: 40px;
-                    color: var(--orange-yellow-crayola);
-                  "
-                >
-                  <ion-icon name="globe-outline"></ion-icon>
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Portfolio</h4>
-                  <a
-                    href="https://mohamedthoufeeq.github.io/portfolio/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="service-item-text"
-                    style="color: var(--light-gray-70); text-decoration: none"
-                  >
-                    View Live Portfolio
-                  </a>
-                </div>
-              </li>
             </ul>
           </section>
         </article>
@@ -995,51 +1054,6 @@
             </p>
 
             <ul class="service-list">
-              <!-- WhatsApp Button -->
-              <li class="service-item" style="padding: 0">
-                <!-- Note: wa.me instantly opens a chat in WhatsApp with a pre-filled message -->
-                <a
-                  href="https://wa.me/919087588215?text=Hi%20Mohamed,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!"
-                  target="_blank" rel="noopener noreferrer"
-                  style="
-                    display: flex;
-                    align-items: center;
-                    gap: 20px;
-                    padding: 30px;
-                    width: 100%;
-                    border-radius: 14px;
-                  "
-                >
-                  <div
-                    class="service-icon-box"
-                    style="
-                      margin-bottom: 0;
-                      display: flex;
-                      justify-content: center;
-                      align-items: center;
-                      font-size: 40px;
-                      color: var(--orange-yellow-crayola);
-                    "
-                  >
-                    <ion-icon name="logo-whatsapp"></ion-icon>
-                  </div>
-                  <div class="service-content-box" style="text-align: left">
-                    <h4
-                      class="h4 service-item-title"
-                      style="margin-bottom: 5px"
-                    >
-                      WhatsApp Me
-                    </h4>
-                    <p
-                      class="service-item-text"
-                      style="color: var(--light-gray-70)"
-                    >
-                      +91 9087588215
-                    </p>
-                  </div>
-                </a>
-              </li>
-
               <!-- Email Button -->
               <li class="service-item" style="padding: 0">
                 <a
